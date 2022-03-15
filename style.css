@@ -116,15 +116,6 @@ nav{
   margin-bottom: 10px;
 }
 
-#about{
-  display: flex;
-  margin: 30px auto;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  text-align: left;
-}
-
 #connect{
   text-transform: uppercase;
   color: #7F8CFF;
