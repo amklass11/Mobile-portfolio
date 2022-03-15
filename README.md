@@ -1,5 +1,5 @@
 # mobile-portfolio
-This project is aimed at building a beautiful porfolio page.
+This  project is aimed at building a beautiful porfolio page.
 
 # Built With
 HTML
