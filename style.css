@@ -14,11 +14,11 @@ button {
   background: none;
   border: none;
 }
+
 ul {
   list-style: none;
   display: flex;
   flex-direction: row;
-
 }
 
 .container {
@@ -81,7 +81,7 @@ nav {
 }
 
 #headline p {
-  color: #344563 ;
+  color: #344563;
   font-size: 16px;
   line-height: 24px;
 }
