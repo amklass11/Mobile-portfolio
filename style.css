@@ -47,6 +47,7 @@ header {
   font-weight: 700;
   padding: 10px;
 }
+
 nav {
   color: #6070ff;
   font-size: 20px;
@@ -72,7 +73,7 @@ nav {
   padding: 10px 0;
 }
 
-#headline p{
+#headline p {
   color: #000070;
   font-size: 16px;
   line-height: 24px;
@@ -109,7 +110,6 @@ nav {
   padding: 5px;
   background: #00007020;
   border-radius: 5px;
-  font-weight: light;
   margin: 5px 10px;
   margin-left: 0;
 }
@@ -120,7 +120,7 @@ nav {
 }
 
 #connect {
-  color: #7f8Cff;
+  color: #7f8cff;
   padding: 15px 0;
 }
 
