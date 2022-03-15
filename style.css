@@ -14,6 +14,12 @@ button {
   background: none;
   border: none;
 }
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+
+}
 
 .container {
   width: 375px;
@@ -65,16 +71,17 @@ nav {
   height: 635px;
   border-radius: 0 0 0 66px;
   padding: 8px 30px;
+  padding-top: 146px;
 }
 
-#headline h2 {
+#headline h1 {
   color: #172b4d;
   font-size: 40px;
   padding: 10px 0;
 }
 
 #headline p {
-  color: #000070;
+  color: #344563 ;
   font-size: 16px;
   line-height: 24px;
 }
