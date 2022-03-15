@@ -1,0 +1,143 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: sans-serif;
+  background: #f0f0f0;
+}
+button{
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.container{
+  width: 375px;
+  margin: 0 auto;
+}
+.white-bg{
+  background: #fff;
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  background: white;
+  z-index: 5;
+}
+#bar {
+  color: blue;
+}
+
+#logo{
+  color: #6070FF;
+  width: fit-content;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 10px;
+}
+nav{
+  color: #6070FF;
+  font-size: 20px;
+  padding: 10px;
+}
+
+#headline{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  background-color: white;
+  background-image: url(./bg.png);
+  height: 635px;
+  border-radius: 0 0 0 66px;
+  padding: 8px 30px;
+}
+
+#headline h2{
+  color: #172B4D;
+  font-size: 40px;
+  padding: 10px 0;
+}
+
+#headline p{
+  color: #000070;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#connect{
+  text-transform: uppercase;
+  color: #7F8CFF;
+  padding: 15px 0;
+}
+
+#social button{
+  color: darkcyan;
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  width: fit-content;
+  padding: 0 7px;
+  font-size: 18px;
+}
+
+.tags span{
+  display: inline-block;
+  padding: 5px;
+  background: #00007020;
+  font-size: 12px;
+  border-radius: 5px;
+  font-weight: light;
+  margin: 5px 10px;
+  margin-left: 0;
+}
+
+.button button{
+  background: none;
+  border-radius: 5px;
+  border: 2px solid #000070;
+  padding: 10px 15px;
+  font-weight: bold;
+  color: #000070;
+}
+.button{
+  margin: 20px 0;
+  margin-bottom: 10px;
+}
+
+#about{
+  display: flex;
+  margin: 30px auto;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+#connect{
+  text-transform: uppercase;
+  color: #7F8CFF;
+  padding: 15px 0;
+}
+
+#social button{
+  color: #505F79;
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  width: fit-content;
+  padding: 0 7px;
+  font-size: 18px;
+}
