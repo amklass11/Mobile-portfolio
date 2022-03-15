@@ -1,28 +1,29 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
+body {
   font-family: sans-serif;
   background: #f0f0f0;
 }
-button{
+button {
   cursor: pointer;
   background: none;
   border: none;
 }
 
-.container{
+.container {
   width: 375px;
   margin: 0 auto;
 }
-.white-bg{
+
+.white-bg {
   background: #fff;
 }
 
-header{
+header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -37,20 +38,20 @@ header{
   color: blue;
 }
 
-#logo{
-  color: #6070FF;
+#logo {
+  color: #6070ff;
   width: fit-content;
   font-size: 30px;
   font-weight: 700;
   padding: 10px;
 }
-nav{
-  color: #6070FF;
+nav {
+  color: #6070ff;
   font-size: 20px;
   padding: 10px;
 }
 
-#headline{
+#headline {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -64,7 +65,7 @@ nav{
 }
 
 #headline h2{
-  color: #172B4D;
+  color: #172b4d;
   font-size: 40px;
   padding: 10px 0;
 }
@@ -75,13 +76,13 @@ nav{
   line-height: 24px;
 }
 
-#connect{
+#connect {
   text-transform: uppercase;
-  color: #7F8CFF;
+  color: #7F8cff;
   padding: 15px 0;
 }
 
-#social button{
+#social button {
   color: darkcyan;
   border: none;
   outline: none;
@@ -92,7 +93,7 @@ nav{
   font-size: 18px;
 }
 
-.tags span{
+.tags span {
   display: inline-block;
   padding: 5px;
   background: #00007020;
@@ -103,7 +104,7 @@ nav{
   margin-left: 0;
 }
 
-.button button{
+.button button {
   background: none;
   border-radius: 5px;
   border: 2px solid #000070;
@@ -111,18 +112,18 @@ nav{
   font-weight: bold;
   color: #000070;
 }
-.button{
+.button {
   margin: 20px 0;
   margin-bottom: 10px;
 }
 
-#connect{
+#connect {
   text-transform: uppercase;
   color: #7F8CFF;
   padding: 15px 0;
 }
 
-#social button{
+#social button {
   color: #505F79;
   border: none;
   outline: none;
