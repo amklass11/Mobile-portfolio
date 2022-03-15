@@ -46,12 +46,13 @@ header {
   color: blue;
 }
 
-#logo {
+#logo a {
   color: #6070ff;
   width: fit-content;
   font-size: 30px;
   font-weight: 700;
   padding: 10px;
+  text-decoration: none;
 }
 
 nav {
