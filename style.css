@@ -79,12 +79,6 @@ nav {
   line-height: 24px;
 }
 
-#connect {
-  text-transform: uppercase;
-  color: #7f8cff;
-  padding: 15px 0;
-}
-
 .button button {
   background: none;
   border-radius: 5px;
@@ -92,17 +86,6 @@ nav {
   padding: 10px 15px;
   font-weight: bold;
   color: #000070;
-}
-
-#social button {
-  color: darkcyan;
-  border: none;
-  outline: none;
-  background: none;
-  cursor: pointer;
-  width: fit-content;
-  padding: 0 7px;
-  font-size: 18px;
 }
 
 .tags span {
