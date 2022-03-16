@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: Poppins;
+  font-family: sans-serif;
   background: #e5e5e5;
 }
 
@@ -90,10 +90,10 @@ nav {
 .button button {
   background: none;
   border-radius: 5px;
-  border: 2px solid #396DF2;
+  border: 2px solid #396df2;
   padding: 10px 15px;
   font-weight: bold;
-  color: #396DF2;
+  color: #396df2;
 }
 
 .tags span {
@@ -110,13 +110,13 @@ nav {
   margin-bottom: 10px;
 }
 
-#connect {
+.connect {
   color: #7f8cff;
   padding: 15px 0;
   text-transform: uppercase;
 }
 
-#social a {
+.social a {
   color: #505f79;
   border: none;
   outline: none;
@@ -126,7 +126,8 @@ nav {
   padding: 0 7px;
   font-size: 18px;
 }
-img{
+
+img {
   display: block;
   width: 100%;
   height: auto;
@@ -135,7 +136,6 @@ img{
 
 #work {
   display: grid;
-  grid-template-columns: repeat(auto, minmax(300px, 1fr));
   grid-template-rows: auto;
   grid-column-gap: 30px;
   grid-row-gap: 30px;
@@ -164,8 +164,9 @@ img{
   font-weight: 700;
   text-transform: capitalize;
   margin: 10px 0;
-  color: #172B4D;
+  color: #172b4d;
 }
+
 .card-list {
   display: flex;
   flex-direction: row;
@@ -194,18 +195,18 @@ img{
   color: #344563;
 }
 
-.tags span{
+.tags span {
   display: inline-block;
   padding: 5px;
   background: #00007020;
   font-size: 12px;
   border-radius: 5px;
-  font-weight: light;
+  color: #6070ff;
   margin: 5px 10px;
   margin-left: 0;
 }
 
-#about{
+#about {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -217,19 +218,18 @@ img{
   color: #172b4d;
 }
 
-#list ul{
+#list ul {
   list-style-type: none;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
 
-#list ul li ul{
+#list ul li ul {
   margin-left: 20px;
 }
 
 #list ul li {
-  margin: 20px 0;
   margin: 20px 0;
   align-items: center;
   display: inline-flex;
@@ -237,7 +237,7 @@ img{
 
 .l {
   margin: 15px;
-  background-color: #F7F7F9;
+  background-color: #f7f7f9;
   height: 66.72px;
   border-radius: 8px;
   width: 248px;
@@ -249,10 +249,12 @@ img{
 .support {
   padding-left: 55px;
 }
+
 .image {
   width: 48px;
   margin: 10px;
 }
+
 .item {
   flex-grow: 3;
 }
