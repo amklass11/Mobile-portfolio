@@ -47,15 +47,15 @@ header {
 }
 
 .social a {
-	color: #505f79;
-	border: none;
-	outline: none;
-	background: none;
-	cursor: pointer;
-	width: fit-content;
-	padding: 0 7px;
-	font-size: 18px;
-  }
+  color: #505f79;
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  width: fit-content;
+  padding: 0 7px;
+  font-size: 18px;
+}
   
 #logo a {
   color: #6070ff;
