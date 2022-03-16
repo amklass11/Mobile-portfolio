@@ -46,6 +46,17 @@ header {
   color: blue;
 }
 
+.social a {
+	color: #505f79;
+	border: none;
+	outline: none;
+	background: none;
+	cursor: pointer;
+	width: fit-content;
+	padding: 0 7px;
+	font-size: 18px;
+  }
+  
 #logo a {
   color: #6070ff;
   width: fit-content;
@@ -96,15 +107,6 @@ nav {
   color: #396df2;
 }
 
-.tags span {
-  display: inline-block;
-  padding: 5px;
-  background: #00007020;
-  border-radius: 5px;
-  margin: 5px 10px;
-  margin-left: 0;
-}
-
 .button {
   margin: 20px 0;
   margin-bottom: 10px;
@@ -114,17 +116,6 @@ nav {
   color: #7f8cff;
   padding: 15px 0;
   text-transform: uppercase;
-}
-
-.social a {
-  color: #505f79;
-  border: none;
-  outline: none;
-  background: none;
-  cursor: pointer;
-  width: fit-content;
-  padding: 0 7px;
-  font-size: 18px;
 }
 
 img {
