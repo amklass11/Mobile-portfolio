@@ -264,7 +264,8 @@ img {
   background-size: 384px 662px;
 }
 
-.footer form input, .footer form textarea {
+.footer form input,
+.footer form textarea {
   width: 100%;
   display: block;
   height: 40px;
@@ -284,7 +285,7 @@ img {
 }
 
 #final {
-  background-color: #ffffff;
+  background-color: #fff;
   margin: 17px;
   width: 140px;
   height: 48px;
