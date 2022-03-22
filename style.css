@@ -1,28 +1,36 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
+body {
   font-family: sans-serif;
-  background: #f0f0f0;
+  background: #e5e5e5;
 }
-button{
+
+button {
   cursor: pointer;
   background: none;
   border: none;
 }
 
-.container{
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.container {
   width: 375px;
   margin: 0 auto;
 }
-.white-bg{
+
+.white-bg {
   background: #fff;
 }
 
-header{
+header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -33,24 +41,38 @@ header{
   background: white;
   z-index: 5;
 }
+
 #bar {
   color: blue;
 }
 
-#logo{
-  color: #6070FF;
+.social a {
+  color: #505f79;
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  width: fit-content;
+  padding: 0 7px;
+  font-size: 18px;
+}
+
+#logo a {
+  color: #6070ff;
   width: fit-content;
   font-size: 30px;
   font-weight: 700;
   padding: 10px;
+  text-decoration: none;
 }
-nav{
-  color: #6070FF;
+
+nav {
+  color: #6070ff;
   font-size: 20px;
   padding: 10px;
 }
 
-#headline{
+#headline {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -61,83 +83,169 @@ nav{
   height: 635px;
   border-radius: 0 0 0 66px;
   padding: 8px 30px;
+  padding-top: 146px;
 }
 
-#headline h2{
-  color: #172B4D;
+#headline h1 {
+  color: #172b4d;
   font-size: 40px;
   padding: 10px 0;
 }
 
-#headline p{
-  color: #000070;
+#headline p {
+  color: #344563;
   font-size: 16px;
   line-height: 24px;
 }
 
-#connect{
-  text-transform: uppercase;
-  color: #7F8CFF;
-  padding: 15px 0;
-}
-
-#social button{
-  color: darkcyan;
-  border: none;
-  outline: none;
+.button button {
   background: none;
-  cursor: pointer;
-  width: fit-content;
-  padding: 0 7px;
-  font-size: 18px;
+  border-radius: 5px;
+  border: 2px solid #396df2;
+  padding: 10px 15px;
+  font-weight: bold;
+  color: #396df2;
 }
 
-.tags span{
+.button {
+  margin: 20px 0;
+  margin-bottom: 10px;
+}
+
+.connect {
+  color: #7f8cff;
+  padding: 15px 0;
+  text-transform: uppercase;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+#work {
+  display: grid;
+  grid-template-rows: auto;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 1px solid #00000040;
+  border-radius: 10px;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+.card-img {
+  background: #fafafa;
+  border-radius: 10px;
+  overflow: hidden;
+  height: auto;
+  min-height: 100px;
+}
+
+.card h2 {
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin: 10px 0;
+  color: #172b4d;
+}
+
+.card-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px 0;
+}
+
+.card-list h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.card-list ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-list ul li {
+  margin-left: 25px;
+  padding-left: 0;
+}
+
+.desc {
+  margin: 10px 0;
+  color: #344563;
+}
+
+.tags span {
   display: inline-block;
   padding: 5px;
   background: #00007020;
   font-size: 12px;
   border-radius: 5px;
-  font-weight: light;
+  color: #6070ff;
   margin: 5px 10px;
   margin-left: 0;
 }
 
-.button button{
-  background: none;
-  border-radius: 5px;
-  border: 2px solid #000070;
-  padding: 10px 15px;
-  font-weight: bold;
-  color: #000070;
-}
-.button{
-  margin: 20px 0;
-  margin-bottom: 10px;
-}
-
-#about{
+#about {
   display: flex;
-  margin: 30px auto;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
   text-align: left;
+  border-radius: 84px 0 0;
+  background: white;
+  padding: 43px;
+  color: #172b4d;
 }
 
-#connect{
-  text-transform: uppercase;
-  color: #7F8CFF;
-  padding: 15px 0;
+#list ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
-#social button{
-  color: #505F79;
-  border: none;
-  outline: none;
-  background: none;
-  cursor: pointer;
-  width: fit-content;
-  padding: 0 7px;
-  font-size: 18px;
+#list ul li ul {
+  margin-left: 20px;
+}
+
+#list ul li {
+  margin: 20px 0;
+  align-items: center;
+  display: inline-flex;
+}
+
+.l {
+  margin: 15px;
+  background-color: #f7f7f9;
+  height: 66.72px;
+  border-radius: 8px;
+  width: 248px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.support {
+  padding-left: 55px;
+}
+
+.image {
+  width: 48px;
+  margin: 10px;
+}
+
+.item {
+  flex-grow: 3;
 }
