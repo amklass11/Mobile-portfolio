@@ -22,7 +22,7 @@ ul {
 }
 
 .container {
-  width: 375px;
+  width: 327px;
   margin: 0 auto;
 }
 
@@ -36,7 +36,6 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px 0;
-  position: sticky;
   top: 0;
   background: white;
   z-index: 5;
@@ -194,7 +193,7 @@ img {
   border-radius: 5px;
   color: #6070ff;
   margin: 5px 10px;
-  margin-left: 0;
+  float: left;
 }
 
 #about {
@@ -248,4 +247,51 @@ img {
 
 .item {
   flex-grow: 3;
+}
+.footer{
+  flex-direction: column;
+  display: flex;
+  background: #396df2;
+  width: 100%;
+  border-radius: 40px 0 0 0;
+  padding: 202px 0;
+  margin-top: 50px;
+  color: #fff;
+  text-align: center;
+  background-image: url(./coo.png);
+  height: 695px;
+  background-repeat: no-repeat;
+  background-size: 384px 662px;
+}
+
+.footer form input, .footer form textarea{
+	width: 100%;
+	display: block;
+	height: 40px;
+	padding-left: 10px;
+	border-radius: 7px;
+	margin-top: 20px;
+	border: none;
+	background: #fff;
+}
+.footer form textarea{
+	height: 100px;
+}
+.footer h2{
+	font-size: 2em;
+	margin-bottom: 25px;
+}
+#final {
+  background-color: #ffffff;
+  margin: 17px;
+  width: 140px;
+  height: 48px;
+  font-weight: 500;
+  padding: 12px;
+  border-radius: 8px;
+  margin-left: 0;
+}
+
+#final button {
+  color: #6070ff;
 }
