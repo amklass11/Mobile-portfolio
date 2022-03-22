@@ -247,7 +247,8 @@ img {
 .item {
   flex-grow: 3;
 }
-.footer{
+
+.footer {
   flex-direction: column;
   display: flex;
   background: #396df2;
@@ -263,23 +264,25 @@ img {
   background-size: 384px 662px;
 }
 
-.footer form input, .footer form textarea{
-	width: 100%;
-	display: block;
-	height: 40px;
-	padding-left: 10px;
-	border-radius: 7px;
-	margin-top: 20px;
-	border: none;
-	background: #fff;
+.footer form input, .footer form textarea {
+  width: 100%;
+  display: block;
+  height: 40px;
+  padding-left: 10px;
+  border-radius: 7px;
+  margin-top: 20px;
+  border: none;
+  background: #fff;
 }
-.footer form textarea{
-	height: 100px;
+.footer form textarea {
+  height: 100px;
 }
-.footer h2{
-	font-size: 2em;
-	margin-bottom: 25px;
+
+.footer h2 {
+  font-size: 2em;
+  margin-bottom: 25px;
 }
+
 #final {
   background-color: #ffffff;
   margin: 17px;
