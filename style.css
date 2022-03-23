@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: poppins;
   background: #e5e5e5;
 }
 
@@ -251,16 +251,15 @@ img {
 .footer {
   flex-direction: column;
   display: flex;
-  background: #396df2;
+  background: #6070ff;
   width: 100%;
   border-radius: 40px 0 0 0;
-  padding: 202px 0;
+  padding: 146px 0;
   margin-top: 50px;
   color: #fff;
   text-align: center;
-  height: 695px;
+  height: 779px;
   background-repeat: no-repeat;
-  /* background-size: 384px 662px; */
   background-image: url(bgn.svg);
   background-position: right;
 }
@@ -269,21 +268,22 @@ img {
 .footer form textarea {
   width: 100%;
   display: block;
-  height: 40px;
+  height: 48px;
   padding-left: 10px;
   border-radius: 7px;
   margin-top: 20px;
   border: none;
-  background: #fff;
+  background: #ffffff;
 }
 
 .footer form textarea {
-  height: 100px;
+  height: 170px;
 }
 
 .footer h2 {
-  font-size: 2em;
+  font-size: 48px;
   margin-bottom: 25px;
+  height: 56px;
 }
 
 #final {
@@ -299,4 +299,14 @@ img {
 
 #final button {
   color: #6070ff;
+}
+
+#final:hover {
+  background-color: #6070ff;
+  color: white;
+}
+
+#final:active {
+  background-color: #2230d2;
+  color: white;
 }
