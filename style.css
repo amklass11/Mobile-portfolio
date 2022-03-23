@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: poppins;
+  font-family: sans-serif;
   background: #e5e5e5;
 }
 
@@ -273,7 +273,7 @@ img {
   border-radius: 7px;
   margin-top: 20px;
   border: none;
-  background: #ffffff;
+  background: #fff;
 }
 
 .footer form textarea {
