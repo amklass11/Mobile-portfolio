@@ -258,10 +258,11 @@ img {
   margin-top: 50px;
   color: #fff;
   text-align: center;
-  background-image: url(./coo.png);
   height: 695px;
   background-repeat: no-repeat;
   background-size: 384px 662px;
+  background-image: url(bgn.svg);
+  background-position: 84px;
 }
 
 .footer form input,
