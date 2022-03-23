@@ -260,9 +260,9 @@ img {
   text-align: center;
   height: 695px;
   background-repeat: no-repeat;
-  background-size: 384px 662px;
+  /* background-size: 384px 662px; */
   background-image: url(bgn.svg);
-  background-position: 84px;
+  background-position: right;
 }
 
 .footer form input,
