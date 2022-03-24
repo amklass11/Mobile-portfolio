@@ -294,10 +294,7 @@ img {
   font-weight: 500;
   padding: 12px;
   border-radius: 8px;
-  margin-left: 0;
-}
-
-#final button {
+  margin-left: -177px;
   color: #6070ff;
 }
 
@@ -310,3 +307,9 @@ img {
   background-color: #2230d2;
   color: white;
 }
+
+#final:disabled {
+  background-color: white;
+  color: #5e6c84;
+}
+
