@@ -253,6 +253,10 @@ img {
   flex-grow: 1;
 }
 
+.lass{
+  background-color: #f7f7f9;
+}
+
 #trans {
   display: flex;
   flex-direction: column;
