@@ -70,6 +70,19 @@ nav {
 
 ul {
   list-style: none;
+
+}
+
+.footer h2 {
+  font-size: 48px;
+  margin-bottom: 25px;
+  height: 56px;
+}
+
+.card h2 {
+  font-size: 30px;
+  text-transform: capitalize;
+  margin: 10px 0;
 }
 
 #headline h2 {
@@ -139,12 +152,6 @@ img {
   min-height: 100px;
 }
 
-.card h2 {
-  font-size: 30px;
-  text-transform: capitalize;
-  margin: 10px 0;
-}
-
 .card-list {
   display: flex;
   flex-direction: row;
@@ -180,6 +187,20 @@ img {
   border-radius: 5px;
   color: #6070ff;
   margin: 5px 10px;
+  }
+
+.button button {
+  background: none;
+  border-radius: 5px;
+  border: 2px solid #6070ff;
+  padding: 10px 15px;
+  font-weight: bold;
+  color: #000070;
+}
+
+.button {
+  margin: 20px 0;
+  margin-bottom: 10px;
 }
 
 .button button {
@@ -205,7 +226,7 @@ img {
   border-radius: 84px 0 0;
   background: white;
   padding: 43px;
-  color: #172b4d;
+  color: #172b4d;	
 }
 
 #list ul {
@@ -213,12 +234,12 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  }
-  
+}
+
 #list ul li ul {
   margin-left: 20px;
 }
-
+  
 #list ul li {
   margin: 20px 0;
   align-items: center;
@@ -253,10 +274,6 @@ img {
   flex-grow: 1;
 }
 
-.lass{
-  background-color: #f7f7f9;
-}
-
 #trans {
   display: flex;
   flex-direction: column;
@@ -275,7 +292,7 @@ footer {
   height: 779px;
   background-repeat: no-repeat;
   background-image: url(bgn.svg);
-  background-position: right;	
+  background-position: right;
 
 }
 
@@ -293,12 +310,6 @@ footer {
 
 .footer form textarea {
   height: 170px;
-}
-
-.footer h2 {
-  font-size: 48px;
-  margin-bottom: 25px;
-  height: 56px;
 }
 
 #final {
@@ -328,7 +339,6 @@ footer {
   color: #5e6c84;
 }
 
-
 @media only screen and (min-width: 450px) {
   #headline {
     background-image: url(./hbg.svg);
@@ -336,7 +346,7 @@ footer {
     background-size: 100%;
   }
 
-.card {
+  .card {
     flex-direction: row;
     padding: 20px;
     justify-content: space-between;
@@ -356,6 +366,7 @@ footer {
     width: 50%;
     height: 90%;
   }
+  
   #about {
     flex-direction: row;
     justify-content: space-between;
@@ -367,21 +378,17 @@ footer {
 
   #list {
     width: 55%;
+    display: flex;
+    flex-direction: row;
   }
 
   .l {
     flex-direction: column;
     width: 197px;
     height: 101.72px;
-    width: 124px
   }
 
   #trans {
-  flex-direction: row;
-  }
-
-  #list {
-    display: flex;
     flex-direction: row;
   }
 
@@ -390,7 +397,7 @@ footer {
     width: 100%;
   }
 
-  footer .container{
+  footer .container {
     width: 50%;
   }
 }
