@@ -321,10 +321,10 @@ dl {
   background-color: white;
   color: #5e6c84;
 }
+
 .stack {
   display: flex;
   flex-direction: column;
-  
 }
 
 @media only screen and (min-width: 450px) {
@@ -369,6 +369,7 @@ dl {
     display: flex;
     flex-direction: column;
   }
+
   #list ul {
     flex-direction: column;
     margin-left: 30px;
