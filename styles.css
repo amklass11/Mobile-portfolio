@@ -73,6 +73,18 @@ ul {
 
 }
 
+.footer h2 {
+  font-size: 48px;
+  margin-bottom: 25px;
+  height: 56px;
+}
+
+.card h2 {
+  font-size: 30px;
+  text-transform: capitalize;
+  margin: 10px 0;
+}
+
 #headline h2 {
   color: #505f79;
   font-size: 40px;
@@ -138,12 +150,6 @@ img {
   overflow: hidden;
   height: auto;
   min-height: 100px;
-}
-
-.card h2 {
-  font-size: 30px;
-  text-transform: capitalize;
-  margin: 10px 0;
 }
 
 .card-list {
@@ -228,8 +234,8 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  }
-  
+}
+
 #list ul li ul {
   margin-left: 20px;
 }
@@ -239,7 +245,7 @@ img {
   align-items: center;
   display: inline-flex;
 }
-  
+
 .l {
   margin: 15px;
   background-color: #f7f7f9;
@@ -250,7 +256,7 @@ img {
   flex-direction: row;
   align-items: center;
 }
-  
+
 .support {
   padding-left: 55px;
 }
@@ -263,7 +269,7 @@ img {
   width: 48px;
   margin: 10px;
 }
-  
+
 .item {
   flex-grow: 1;
 }
@@ -272,6 +278,7 @@ img {
   display: flex;
   flex-direction: column;
 }
+
 footer {
   flex-direction: column;
   display: flex;
@@ -285,7 +292,8 @@ footer {
   height: 779px;
   background-repeat: no-repeat;
   background-image: url(bgn.svg);
-  background-position: right;	
+  background-position: right;
+
 }
 
 .footer form input,
@@ -302,12 +310,6 @@ footer {
 
 .footer form textarea {
   height: 170px;
-}
-
-.footer h2 {
-  font-size: 48px;
-  margin-bottom: 25px;
-  height: 56px;
 }
 
 #final {
@@ -337,7 +339,6 @@ footer {
   color: #5e6c84;
 }
 
-
 @media only screen and (min-width: 450px) {
   #headline {
     background-image: url(./hbg.svg);
@@ -345,7 +346,7 @@ footer {
     background-size: 100%;
   }
 
-.card {
+  .card {
     flex-direction: row;
     padding: 20px;
     justify-content: space-between;
@@ -365,6 +366,7 @@ footer {
     width: 50%;
     height: 90%;
   }
+  
   #about {
     flex-direction: row;
     justify-content: space-between;
@@ -376,21 +378,17 @@ footer {
 
   #list {
     width: 55%;
+    display: flex;
+    flex-direction: row;
   }
 
   .l {
     flex-direction: column;
     width: 197px;
     height: 101.72px;
-    width: 124px
   }
 
   #trans {
-  flex-direction: row;
-  }
-
-  #list {
-    display: flex;
     flex-direction: row;
   }
 
@@ -399,7 +397,7 @@ footer {
     width: 100%;
   }
 
-  footer .container{
+  footer .container {
     width: 50%;
   }
 }
