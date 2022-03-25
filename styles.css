@@ -67,8 +67,10 @@ nav {
   padding-top: 146px;
   background-repeat: no-repeat;
 }
+
 ul {
-  list-style: none;	
+  list-style: none;
+
 }
 
 #headline h2 {
@@ -195,6 +197,20 @@ img {
   margin-bottom: 10px;
 }
 
+.button button {
+  background: none;
+  border-radius: 5px;
+  border: 2px solid #6070ff;
+  padding: 10px 15px;
+  font-weight: bold;
+  color: #000070;
+}
+
+.button {
+  margin: 20px 0;
+  margin-bottom: 10px;
+}
+
 #about {
   display: flex;
   flex-direction: column;
@@ -256,7 +272,6 @@ img {
   display: flex;
   flex-direction: column;
 }
-  
 footer {
   flex-direction: column;
   display: flex;
@@ -323,64 +338,68 @@ footer {
 }
 
 
-@media only screen and (min-width: 450px){
-#headline {
-  background-image: url(./hbg.svg);
-  width: 100%;
-  background-size: 100%;
-}
-.card{
+@media only screen and (min-width: 450px) {
+  #headline {
+    background-image: url(./hbg.svg);
+    width: 100%;
+    background-size: 100%;
+  }
+
+.card {
+    flex-direction: row;
+    padding: 20px;
+    justify-content: space-between;
+  }
+
+  .reverse {
+    flex-direction: row-reverse;
+  }
+
+  .card-det {
+    padding: 50px;
+    width: 50%;
+  }
+
+  .card-img {
+    min-height: 100%;
+    width: 50%;
+    height: 90%;
+  }
+  #about {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .flex1 {
+    width: 40%;
+  }
+
+  #list {
+    width: 55%;
+  }
+
+  .l {
+    flex-direction: column;
+    width: 197px;
+    height: 101.72px;
+    width: 124px
+  }
+
+  #trans {
   flex-direction: row;
-  padding: 20px;
-  justify-content: space-between;
-}
+  }
 
-.reverse{
-  flex-direction: row-reverse;
-}
+  #list {
+    display: flex;
+    flex-direction: row;
+  }
 
-.card-det {
-  padding: 50px;
-  width: 50%;
-}
+  footer {
+    background-image: url(./cont.svg);
+    width: 100%;
+  }
 
-.card-img {
-  min-height: 100%;
-  width: 50%;
-  height: 90%;
-}
-#about {
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.flex1 {
-  width: 40%;
-}
-
-#list {
-  width: 55%;
-}
-.l {
-  flex-direction: column;
-  width: 197px;
-  height: 101.72px;
-  width: 124px
-}
-#trans {
-  flex-direction: row;
-}
-
-#list {
-  display: flex;
-  flex-direction: row;
-}
-footer {
-  background-image: url(./cont.svg);
-  width: 100%;
-}
-
-footer .container{
-width: 50%;
-}
+  footer .container{
+    width: 50%;
+  }
 }
