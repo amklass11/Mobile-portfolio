@@ -347,6 +347,7 @@ footer{
 	.card-img{
 		min-height: 100%;
 		width: 50%;
+		height: 90%;
 	}
 	#about{
 		flex-direction: row;
