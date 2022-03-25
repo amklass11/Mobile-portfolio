@@ -77,6 +77,7 @@ nav{
     border-radius: 0 0 0 66px;
     padding: 8px 30px;
     padding-top: 146px;
+	background-repeat: no-repeat;
 }
 ul {
 	list-style: none;
@@ -328,6 +329,7 @@ footer{
 	#headline{
 		background-image: url(./hbg.svg);
 		width: 100%;
+		background-size: 100%;
 	}
 	.card{
 		flex-direction: row;
