@@ -208,7 +208,8 @@ img {
   border-radius: 84px 0 0;
   background: white;
   padding: 43px;
-  color: #172b4d;	
+  color: #172b4d;
+  
 }
 
 #list ul {
@@ -221,7 +222,7 @@ img {
 #list ul li ul {
   margin-left: 20px;
 }
-  
+
 #list ul li {
   margin: 20px 0;
   align-items: center;
@@ -343,7 +344,7 @@ footer {
     width: 50%;
     height: 90%;
   }
-  
+
   #about {
     flex-direction: row;
     justify-content: space-between;
