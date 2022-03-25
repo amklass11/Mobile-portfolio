@@ -86,12 +86,6 @@ ul {
   margin: 10px 0;
 }
 
-.footer h2 {
-  font-size: 48px;
-  margin-bottom: 25px;
-  height: 56px;
-}
-
 .card h2 {
   font-size: 30px;
   text-transform: capitalize;
@@ -299,10 +293,6 @@ footer {
   margin-top: 20px;
   border: none;
   background: #fff;
-}
-
-.footer form textarea {
-  height: 170px;
 }
 
 #final {
