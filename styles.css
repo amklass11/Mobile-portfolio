@@ -27,6 +27,8 @@ button {
 
 .white-bg {
   background: #fff;
+  display: inline-flex;
+  margin: 10px;
 }
 
 header {
@@ -319,6 +321,11 @@ dl {
   background-color: white;
   color: #5e6c84;
 }
+.stack {
+  display: flex;
+  flex-direction: column;
+  
+}
 
 @media only screen and (min-width: 450px) {
   #headline {
@@ -360,7 +367,11 @@ dl {
   #list {
     width: 55%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+  }
+  #list ul {
+    flex-direction: column;
+    margin-left: 30px;
   }
 
   .l {
@@ -369,7 +380,7 @@ dl {
     height: 101.72px;
   }
 
-  #trans {
+  #list #trans {
     flex-direction: row;
   }
 
