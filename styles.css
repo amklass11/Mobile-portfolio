@@ -301,6 +301,10 @@ footer {
   color: #6070ff;
 }
 
+dl {
+  list-style: none;
+}
+
 #final:hover {
   background-color: #6070ff;
   color: white;
