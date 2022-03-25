@@ -211,11 +211,6 @@ img {
   color: #000070;
 }
 
-.button {
-  margin: 20px 0;
-  margin-bottom: 10px;
-}
-
 #about {
   display: flex;
   flex-direction: column;
