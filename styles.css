@@ -328,6 +328,23 @@ dl {
 }
 
 @media only screen and (min-width: 450px) {
+  body {
+    animation-name: change-color;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+  @keyframes change-color {
+    from {
+      background-color: #6070FF;
+    }
+
+    to {
+      background-color: rgb(199, 199, 255);
+    }
+  }
+
   #headline {
     background-image: url(./hbg.svg);
     width: 100%;
@@ -392,5 +409,15 @@ dl {
 
   footer .container {
     width: 50%;
+  }
+
+  button {
+  transition: all 0.5s ease-out;
+  }
+
+  button:hover,
+  button:focus {
+    background-color: #6070ff;
+    color: rgb(255, 193, 136);
   }
 }
