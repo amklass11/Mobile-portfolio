@@ -133,7 +133,6 @@ img {
   align-items: flex-start;
   border: 1px solid #00000040;
   border-radius: 10px;
-  margin: 6px;
   padding: 10px;
   margin: 14px;
 }
@@ -283,7 +282,6 @@ footer {
 
 .footer form input,
 .footer form textarea {
-  width: 100%;
   display: block;
   height: 48px;
   padding-left: 10px;
