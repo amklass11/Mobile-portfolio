@@ -323,7 +323,7 @@ footer {
   color: #5e6c84;
 }
 
-@media only screen and (min-width: 450px) {
+@media only screen and (min-width: 968px) {
   #headline {
     background-image: url(./hbg.svg);
     width: 100%;
