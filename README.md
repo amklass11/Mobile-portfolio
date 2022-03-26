@@ -11,8 +11,8 @@ and css by building the mobile skeleton of the website.
 # Authors
 Amk lass
 
-GitHub:https://github.com/amklass11
-LinkedIn:https://www.linkedin.com/in/amk-lass-521565196/
+GitHub:[@amklass11](https://github.com/amklass11)
+LinkedIn:[@AmkLAss](https://www.linkedin.com/in/amk-lass-521565196/)
 # 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 
@@ -26,4 +26,4 @@ Microverse offered guidance on how to make the project more professional
 
 
 # 📝 License
-This Project is MIT licensed.
+This project is [MIT](./MIT.md) licensed.
