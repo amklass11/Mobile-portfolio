@@ -393,16 +393,16 @@ footer {
     flex-direction: row;
   }
 
-
   #hide {
     display: none;
   }
+
   .hide {
     display: flex;
     flex-direction: row;
     list-style: none;
-
   }
+
   .hide li {
     padding: 34px;
   }
