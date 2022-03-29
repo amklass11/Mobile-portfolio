@@ -384,4 +384,9 @@ footer {
   footer .container {
     width: 50%;
   }
+
+  #list ul li ul {
+    flex-direction: row;
+  }
+
 }
