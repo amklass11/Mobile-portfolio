@@ -401,6 +401,7 @@ footer {
     display: flex;
     flex-direction: row;
     list-style: none;
+    margin-right: 10px;
   }
 
   .hide li {
