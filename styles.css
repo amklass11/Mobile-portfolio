@@ -12,12 +12,6 @@ body {
   letter-spacing: 1px;
 }
 
-button {
-  cursor: pointer;
-  background: none;
-  border: none;
-}
-
 .container {
   width: 100%;
   margin: 0 auto;
@@ -25,6 +19,10 @@ button {
 
 .white-bg {
   background: #fff;
+}
+
+.hide {
+  display: none;
 }
 
 header {
@@ -139,8 +137,8 @@ img {
   align-items: flex-start;
   border: 1px solid #00000040;
   border-radius: 10px;
-  margin: 10px auto;
   padding: 10px;
+  margin: 14px;
 }
 
 .card-img {
@@ -149,6 +147,12 @@ img {
   overflow: hidden;
   height: auto;
   min-height: 100px;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+#flask {
+  height: 172px;
 }
 
 .card-list {
@@ -186,15 +190,6 @@ img {
   border-radius: 5px;
   color: #6070ff;
   margin: 5px 10px;
-}
-
-.button button {
-  background: none;
-  border-radius: 5px;
-  border: 2px solid #6070ff;
-  padding: 10px 15px;
-  font-weight: bold;
-  color: #000070;
 }
 
 .button {
@@ -260,7 +255,7 @@ img {
 }
 
 .image {
-  width: 48px;
+  width: 65px;
   margin: 10px;
 }
 
@@ -291,14 +286,14 @@ footer {
 
 .footer form input,
 .footer form textarea {
-  width: 100%;
   display: block;
   height: 48px;
   padding-left: 10px;
   border-radius: 7px;
-  margin-top: 20px;
   border: none;
   background: #fff;
+  margin: 20px 52px;
+  width: 75%;
 }
 
 .footer form textarea {
@@ -313,7 +308,7 @@ footer {
   font-weight: 500;
   padding: 12px;
   border-radius: 8px;
-  margin-left: -176px;
+  margin-left: -30%;
   color: #6070ff;
 }
 
@@ -332,7 +327,7 @@ footer {
   color: #5e6c84;
 }
 
-@media only screen and (min-width: 450px) {
+@media only screen and (min-width: 968px) {
   #headline {
     background-image: url(./hbg.svg);
     width: 100%;
@@ -392,5 +387,23 @@ footer {
 
   footer .container {
     width: 50%;
+  }
+
+  #list ul li ul {
+    flex-direction: row;
+  }
+
+  #hide {
+    display: none;
+  }
+
+  .hide {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+  }
+
+  .hide li {
+    padding: 34px;
   }
 }

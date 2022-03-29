@@ -14,7 +14,12 @@
 	<header class="container">
 		<div id="logo">My Logo</div>
 		<nav>
-			<button type="button"><i class="fas fa-bars"></i></button>
+			<button id="hide" type="button"><i class="fas fa-bars"></i></button>
+			<ul class="hide">
+				<li>Portfolio</li>
+				<li>about</li>
+				<li>Contact</li>
+			</ul>
 		</nav>
 	</header>
 
@@ -37,7 +42,7 @@
 
 		<section id="work">
 			<div class="card white-bg">
-				<div class="card-img"><img src="./1.png"></div>
+				<div class="card-img"><img src="./1.png" alt="#"></div>
 				<div class="card-det">
 					<h2>Tonic</h2>
 
@@ -61,7 +66,7 @@
 				</div>
 			</div>
 			<div class="card white-bg reverse">
-				<div class="card-img"><img src="./3.png"></div>
+				<div class="card-img"><img src="./3.png" alt="#"></div>
 				<div class="card-det">
 					<h2>Tonic</h2>
 
@@ -85,7 +90,7 @@
 				</div>
 			</div>
 			<div class="card white-bg">
-				<div class="card-img"><img src="./2.png"></div>
+				<div class="card-img"><img src="./2.png" alt="#"></div>
 				<div class="card-det">
 					<h2>Tonic</h2>
 
@@ -137,13 +142,16 @@
 			<div id="list">
 				<ul>
 					<li> <h2>Languages</h2></li>
-					<div id="trans">
+					<li >
+						<ul id="trans">
 						<li class="l"><img src="./5.png" alt="#" class="image"> javaScript</li>
 						<li class="l"><img src="./4.png" alt="#" class="image">HTML</li>
 						<li class="l"><img src="./8.png" alt="#" class="image"> CSS</li>
-
-					</div>
+						</ul>
 						
+
+					</li>
+
 							<li class="white-bg"><h1 class="item">Framworks</h1> <span ><img src="./next.png" alt="#"></span></li>
 							<li class="white-bg"><h1 class="item">Skills</h1> <span><img src="./next.png" alt="#"></span></li>
 						
@@ -162,7 +170,7 @@
 					<input type="text" name="name" required placeholder="Name" maxlength="30">
 					<input type="email" name="email" required placeholder="E-mail">
 	
-					<textarea  name="message" maxlength="500" required placeholder="Write your message here">
+					<textarea  id="flask" name="message" maxlength="500" required placeholder="Write your message here">
 					</textarea>
 					<div >
 						<button id="final" type="submit">Get My Resume</button>
