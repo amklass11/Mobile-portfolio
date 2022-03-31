@@ -4,8 +4,10 @@ This  project is aimed at building a beautiful porfolio page.
 # Built With
 HTML
 CSS
+
+
 # live Demo
- To see a live demo kindly visit [Portfolio](https://github.com/amklass11/Mobile-portfolio)
+ To see a live demo kindly visit [Portfolio](https://amklass11.github.io/Mobile-portfolio/)
 
 # Getting Started
 This is a  microverse project aimed at grasping responsive design wtih html
