@@ -1,0 +1,19 @@
+{
+  "name": "mobile-portfolio-1",
+  "version": "1.0.0",
+  "description": "This  project is aimed at building a beautiful porfolio page.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amklass11/Mobile-portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amklass11/Mobile-portfolio/issues"
+  },
+  "homepage": "https://github.com/amklass11/Mobile-portfolio#readme"
+}

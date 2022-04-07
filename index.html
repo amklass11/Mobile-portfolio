@@ -7,14 +7,20 @@
 	<title>Portfolio</title>
 	<script src="https://kit.fontawesome.com/b8019b4db4.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" type="text/css" href="styles.css">
+
 	
 </head>
 
 <body>
 	<header class="container">
 		<div id="logo">Lassana</div>
-		<nav>
-			<button id="hide" type="button"><i class="fas fa-bars"></i></button>
+		<nav class="nae toggle-menu">
+			<button id="hide" type="menu"><i class="fas fa-bars"></i></button>
+			<ul class="mobile-menu" id="anchors">
+				<li class="pad"><a href="#works">Portfolio</a></li>
+				<li  class="pad"><a href="#about-myself">About</a></li>
+				<li  class="pad"><a href="#contact">Contact</a></li>
+			  </ul>
 			<ul class="hide">
 				<li>Lassana's Portfolio</li>
 				<li>about</li>
@@ -25,7 +31,7 @@
 
 	<main class="container">
 		<section id="headline">
-			<h2>I’m Mariane
+			<h2>I’m Lassana
 				Glad to see you!</h2>
 
 			<p>I’m a software developeer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me. </p>
@@ -179,6 +185,7 @@
 			</div>
 		</section>
 		</footer>
+		<script src="app.js"></script>
 </body>
 
 </html>
