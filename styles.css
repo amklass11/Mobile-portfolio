@@ -38,6 +38,7 @@ header {
 }
 
 .navblur {
+  display: block;
   position: fixed;
   inset: 0;
   background: rgba(96, 112, 2550, 0.8);
@@ -286,8 +287,17 @@ img {
   transition: all 0.5s ease;
 }
 
+.activate li {
+  text-decoration: none;
+}
+
+.padding {
+  margin: 19px;
+}
+
 .mobile-menu {
-  display: block;
+  display: none;
+
 }
 
 #trans {
