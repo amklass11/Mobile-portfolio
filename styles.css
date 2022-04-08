@@ -291,6 +291,23 @@ img {
   text-decoration: none;
 }
 
+.close-button {
+  display: none;
+}
+
+.visible {
+  display: block;
+  font-size: 47px;
+  margin-left: 320px;
+  color: white;
+  background: none;
+  border: none;
+}
+
+.invisible{
+  display: none;
+}
+
 .padding {
   margin: 19px;
 }
