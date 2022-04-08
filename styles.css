@@ -63,6 +63,10 @@ header {
   padding: 10px;
 }
 
+.activate li {
+  text-decoration: none;
+}
+
 #headline {
   display: flex;
   flex-direction: column;
@@ -287,10 +291,6 @@ img {
   transition: all 0.5s ease;
 }
 
-.activate li {
-  text-decoration: none;
-}
-
 .close-button {
   display: none;
 }
@@ -314,7 +314,6 @@ img {
 
 .mobile-menu {
   display: none;
-
 }
 
 #trans {
