@@ -216,14 +216,13 @@ img {
   padding: 10px;
 }
 
-.modal-head{
-  
-    font-size: 30px;
-    text-transform: capitalize;
-    margin: 10px 0;
-    color: black;
-
+.modal-head { 
+  font-size: 30px;
+  text-transform: capitalize;
+  margin: 10px 0;
+  color: black;
 }
+
 .modal-head h2 {
   padding: 5px 535px 8px 4px;
   margin: 0px 0px;
@@ -238,6 +237,7 @@ img {
 #flask {
   height: 172px;
 }
+
 .lass {
   padding: 0.5rem;
   color: #67798e;
@@ -263,18 +263,22 @@ img {
   padding: 10px 0;
   font-size: 13px;
 }
+
 .card-list h3 {
   text-transform: uppercase;
   font-weight: bold;
 }
+
 .modal-card-list h3 {
   text-transform: uppercase;
   font-weight: bold;
 }
+
 .card-list ul {
   display: flex;
   flex-direction: row;
 }
+
 .modal-card-list ul {
   display: flex;
   flex-direction: row;
@@ -284,6 +288,7 @@ img {
   margin-left: 25px;
   padding-left: 0;
 }
+
 .modal-card-list ul li {
   margin-left: 25px;
   padding-left: 0;
@@ -508,19 +513,18 @@ footer {
     padding: 50px;
     width: 50%;
   }
-  
+
   .modal-card-det {
     padding: 50px;
     width: 50%;
   }
-
 
   .card-img {
     min-height: 100%;
     width: 50%;
     height: 90%;
   }
-  
+
   .modal-card-img {
     min-height: 100%;
     width: 50%;
