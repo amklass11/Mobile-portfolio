@@ -56,7 +56,7 @@ const dataProjects = [
     description:
         'Exploring the future of media in Facebook first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
     descriptionPopup:
-        'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s took a gaed it 1960s with nesciunt doloremque nesciunt doloremque nesciunt doloremque eveniet, recusandae esse voluptatibus sapiente optio totam! Aliquam deleniti necessitatibus debitis alias magnam mollitia culpa beatae totam qui?',
+        'sandae esse voluptatibus sapiente optio totam! Aliquam deleniti necessitatibus debitis alias magnam mollitia culpa beatae totam qui?',
     image: './3.png',
     technologies: [
       'html',
