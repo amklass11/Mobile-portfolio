@@ -62,6 +62,7 @@ header {
   font-size: 32px;
   font-weight: bold;
 }
+
 .nae {
   color: #6070ff;
   font-size: 20px;
@@ -174,7 +175,6 @@ img {
   display: block;
   width: 80%;
   height: 90%;
-  margin: 0px;
 }
 
 .modal-button {
@@ -301,8 +301,6 @@ img {
   margin: 10px 0;
 }
 
-
-
 .tags span {
   display: inline-block;
   padding: 5px;
@@ -314,8 +312,6 @@ img {
 }
 
 .button {
-  margin: 20px 0;
-  margin-bottom: 10px;
   display: flex;
   margin: 15px;
   align-items: center;
@@ -517,7 +513,7 @@ footer {
     display: flex;
     flex-direction: row;
   }
- 
+
   .ar {
     cursor: pointer;
     margin: 200px;
@@ -528,7 +524,6 @@ footer {
     padding: 20px;
     justify-content: space-between;
     height: 1163px;
-
   }
 
   .reverse {
