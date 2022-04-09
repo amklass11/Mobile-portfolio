@@ -18,81 +18,80 @@ Closer.addEventListener('click', () => {
   rep.classList.toggle('invisible');
 });
 const dataProjects = [
-    {
-      name: 'Tonic',
-      description:
+  {
+    name: 'Tonic',
+    description:
         'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-      descriptionPopup:
+    descriptionPopup:
         'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s took a gaed it 1960s with nesciunt doloremque nesciunt doloremque nesciunt doloremque eveniet, recusandae esse voluptatibus sapiente optio totam! Aliquam deleniti necessitatibus debitis alias magnam mollitia culpa beatae totam qui?',
-      image: './1.png',
-      technologies: ['html', 'css', 'javaScript', 'Bootstraps', 'Github', 'Ruby'],
-      liveVersion:
-        'https://sebastiansolisfenger.github.io/my-portfolio-microverse/',
-      source: 'https://github.com/SebastianSolisFenger/my-portfolio-microverse',
-    },
-    {
-      name: 'Multi-Post Stories',
-      description:
+    image: './1.png',
+    technologies: ['html', 'css', 'javaScript', 'Bootstraps', 'Github', 'Ruby'],
+    liveVersion:
+        'https://amklass11.github.io/Mobile-portfolio/',
+    source: 'https://github.com/amklass11/Mobile-portfolio',
+  },
+  {
+    name: 'Multi-Post Stories',
+    description:
         'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
-      descriptionPopup:
+    descriptionPopup:
         'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s took a gaed it 1960s with nesciunt doloremque nesciunt doloremque nesciunt doloremque eveniet, recusandae esse voluptatibus sapiente optio totam! Aliquam deleniti necessitatibus debitis alias magnam mollitia culpa beatae totam qui?',
-  
-      image: './2.png',
-      technologies: [
-        'html',
-        'Ruby on rails',
-        'css',
-        'javaScript',
-        'Bootstraps',
-        'Github',
-        'Ruby',
-      ],
-      liveVersion:
-        'https://sebastiansolisfenger.github.io/my-portfolio-microverse/',
-      source: 'https://github.com/SebastianSolisFenger/my-portfolio-microverse',
-    },
-    {
-      name: 'Facebook 360',
-      description:
-        'Exploring the future of media in Facebook first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
-      descriptionPopup:
-        'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s took a gaed it 1960s with nesciunt doloremque nesciunt doloremque nesciunt doloremque eveniet, recusandae esse voluptatibus sapiente optio totam! Aliquam deleniti necessitatibus debitis alias magnam mollitia culpa beatae totam qui?',
-  
-      image: './3.png',
-      technologies: [
-        'html',
-        'Ruby on rails',
-        'css',
-        'javaScript',
-        'Bootstraps',
-        'Github',
-        'Ruby',
-      ],
-      liveVersion:
-        'https://sebastiansolisfenger.github.io/my-portfolio-microverse/',
-      source: 'https://github.com/SebastianSolisFenger/my-portfolio-microverse',
-    },
-    {
-      name: 'Uber Navigation',
-      description:
-        'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
-      descriptionPopup:
-        'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s took a gaed it 1960s with nesciunt doloremque nesciunt doloremque nesciunt doloremque eveniet, recusandae esse voluptatibus sapiente optio totam! Aliquam deleniti necessitatibus debitis alias magnam mollitia culpa beatae totam qui?',
-  
-      image: './1.png',
-      technologies: [
-        'html',
-        'Ruby on rails',
-        'css',
-        'javaScript',
-        'Bootstraps',
-        'Github',
-         'Ruby',
+
+    image: './2.png',
+    technologies: [
+      'html',
+      'Ruby on rails',
+      'css',
+      'javaScript',
+      'Bootstraps',
+      'Github',
+      'Ruby',
     ],
     liveVersion:
-        'https://sebastiansolisfenger.github.io/my-portfolio-microverse/',
-    source:'https://github.com/SebastianSolisFenger/my-portfolio-microverse',
-},
+    'https://amklass11.github.io/Mobile-portfolio/',
+    source: 'https://github.com/amklass11/Mobile-portfolio',
+  },
+  {
+    name: 'Facebook 360',
+    description:
+        'Exploring the future of media in Facebook first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
+    descriptionPopup:
+        'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s took a gaed it 1960s with nesciunt doloremque nesciunt doloremque nesciunt doloremque eveniet, recusandae esse voluptatibus sapiente optio totam! Aliquam deleniti necessitatibus debitis alias magnam mollitia culpa beatae totam qui?',
+    image: './3.png',
+    technologies: [
+      'html',
+      'Ruby on rails',
+      'css',
+      'javaScript',
+      'Bootstraps',
+      'Github',
+      'Ruby',
+    ],
+    liveVersion:
+    'https://amklass11.github.io/Mobile-portfolio/',
+    source: 'https://github.com/amklass11/Mobile-portfolio',
+  },
+  {
+    name: 'Uber Navigation',
+    description:
+        'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
+    descriptionPopup:
+        'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s took a gaed it 1960s with nesciunt doloremque nesciunt doloremque nesciunt doloremque eveniet, recusandae esse voluptatibus sapiente optio totam! Aliquam deleniti necessitatibus debitis alias magnam mollitia culpa beatae totam qui?',
+
+    image: './1.png',
+    technologies: [
+      'html',
+      'Ruby on rails',
+      'css',
+      'javaScript',
+      'Bootstraps',
+      'Github',
+      'Ruby',
+    ],
+    liveVersion:
+    'https://amklass11.github.io/Mobile-portfolio/',
+    source: 'https://github.com/amklass11/Mobile-portfolio',
+  },
 ];
 function createCard(el) {
   return `<div class="card white-bg">
@@ -141,10 +140,6 @@ for (let i = 0; i < myProjects.length; i += 1) {
   worksSection.appendChild(myProjects[i]);
 }
 
-// *************************************************************************************************
-// <--------------------------MODAL-SECTION-------------------------->
-// *************************************************************************************************
-
 function createModal(el) {
   return `
      <section id="work">
@@ -187,7 +182,6 @@ function openModal() {
 
 function closeModal() {
   modalArea.classList.toggle('display-modal');
-  modalArea.innerHTML = '';
 }
 
 modalBtn.forEach((el, index) => {
@@ -197,5 +191,7 @@ modalBtn.forEach((el, index) => {
     modalSection.className = 'ar';
     modalSection.innerHTML = createModal(dataProjects[index]);
     modalArea.appendChild(modalSection);
+    const closeModalBtn = document.querySelector('.lass');
+    closeModalBtn.addEventListener('click', closeModal);
   });
 });
