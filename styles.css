@@ -57,11 +57,11 @@ header {
 }
 
 .modal-head h2 {
-  padding: 5px 535px 8px 4px;
-  margin: 0;
+  padding: 4px 523px 8px 4px;
+  margin: -29px 114px -8px -62px;
   font-size: 32px;
+  font-weight: bold;
 }
-
 .nae {
   color: #6070ff;
   font-size: 20px;
@@ -243,8 +243,9 @@ img {
   color: #67798e;
   background: none;
   border: none;
-  font-size: 3rem;
-  margin: -54px -1003px -49px -15px;
+  font-size: 30px;
+  float: right;
+  margin: -79px 0 0 0;
 }
 
 .card-list {
@@ -298,6 +299,8 @@ img {
   margin: 10px 0;
 }
 
+
+
 .tags span {
   display: inline-block;
   padding: 5px;
@@ -311,6 +314,8 @@ img {
 .button {
   margin: 20px 0;
   margin-bottom: 10px;
+  display: flex;
+  margin: 15px;
 }
 
 .button button {
@@ -505,6 +510,24 @@ footer {
     justify-content: space-between;
   }
 
+  .flow {
+    display: flex;
+    flex-direction: row;
+  }
+ 
+  .ar {
+    cursor: pointer;
+    margin: 200px;
+  }
+
+  .modal-card {
+    flex-direction: column;
+    padding: 20px;
+    justify-content: space-between;
+    height: 1163px;
+
+  }
+
   .reverse {
     flex-direction: row-reverse;
   }
@@ -516,7 +539,7 @@ footer {
 
   .modal-card-det {
     padding: 50px;
-    width: 50%;
+    width: 100%;
   }
 
   .card-img {
@@ -526,9 +549,8 @@ footer {
   }
 
   .modal-card-img {
-    min-height: 100%;
-    width: 50%;
-    height: 90%;
+    width: 80%;
+    height: 586px;
   }
 
   #about {
@@ -580,7 +602,12 @@ footer {
     margin-right: 10px;
   }
 
+  .cris {
+    flex-direction: row;
+  }
+
   .hide li {
     padding: 34px;
+    align-items: center;
   }
 }

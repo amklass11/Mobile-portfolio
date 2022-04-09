@@ -145,7 +145,7 @@ function createModal(el) {
      <section id="work">
 <div class="modal-card white-bg">
 <div class="modal-card-det modal-head">
-<h2>Tonic <button class="lass" type="button">X</button></h2>
+<span><h2>Tonic </h2><button class="lass" type="button">X</button></span>
 <div class="modal-card-list">
 <h3>Canopy</h3>
  <ul>
@@ -153,20 +153,24 @@ function createModal(el) {
 <li>lorem</li>
  </ul>
 </div>
+
           <div class="modal-card-img">
             <img src="${el.image}" alt="${el.name}" />
           </div>
+          <div class="flow">
             <p class="desc-modal">
               ${el.description}
             </p>
-
+         
             <div class="tags">
               <span>${el.technologies[1]}</span> <span>${el.technologies[2]}</span> <span>${el.technologies[3]}</span>
+              <div class="button cris">
+              <button href='${el.source}' class='button' type="button">See Source</button>
+              <button  href='${el.liveVersion} class=' button' type="button">See live</button>
             </div>
-
-            <div class="button">
-              <button type="button">See Project</button>
             </div>
+            </div>
+            
           </div>
         </div></section>
       
@@ -177,11 +181,11 @@ const modalBtn = document.querySelectorAll('.modal-button');
 const modalArea = document.querySelector('.modal');
 
 function openModal() {
-  modalArea.classList.toggle('display-modal');
+  modalArea.classList.add('display-modal');
 }
 
 function closeModal() {
-  modalArea.classList.toggle('display-modal');
+  modalArea.classList.remove('display-modal');
 }
 
 modalBtn.forEach((el, index) => {
