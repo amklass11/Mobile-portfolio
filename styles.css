@@ -166,12 +166,6 @@ ul {
   -ms-overflow-style: none;
   scrollbar-width: none; 
   overflow-y: scroll;
-
-
-}
-
-.modal-card ::-webkit-scrollbar {
-  display: none;
 }
 
 img {
