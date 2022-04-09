@@ -199,6 +199,27 @@ img {
   margin: 14px;
 }
 
+#email {
+  cursor: pointer;
+}
+
+.errorMsg {
+  color: #f00;
+  width: 80%;
+  border: 2.5px solid red;
+  background-color: #fff;
+  border-radius: 6px;
+  font-size: -1.5rem;
+  padding: 1px;
+  display: none;
+  text-align: center;
+  margin: -12px 39px -3px 22px;
+}
+
+.showError {
+  display: block;
+}
+
 .display-modal {
   display: block;
 }
@@ -211,6 +232,14 @@ img {
   min-height: 100px;
   margin: 10px auto;
   padding: 10px;
+}
+
+#fprm {
+  cursor: pointer;
+}
+
+#name {
+  cursor: pointer;
 }
 
 .modal-card-img {
