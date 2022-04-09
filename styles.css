@@ -56,6 +56,12 @@ header {
   padding: 15px;
 }
 
+.modal-head h2 {
+  padding: 5px 535px 8px 4px;
+  margin: 0;
+  font-size: 32px;
+}
+
 .nae {
   color: #6070ff;
   font-size: 20px;
@@ -161,11 +167,11 @@ ul {
   scrollbar-width: none; 
   overflow-y: scroll;
 
+
 }
 
 .modal-card ::-webkit-scrollbar {
   display: none;
-
 }
 
 img {
@@ -226,12 +232,6 @@ img {
   text-transform: capitalize;
   margin: 10px 0;
   color: black;
-}
-
-.modal-head h2 {
-  padding: 5px 535px 8px 4px;
-  margin: 0;
-  font-size: 32px;
 }
 
 .desc-modal {
