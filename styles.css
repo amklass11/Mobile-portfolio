@@ -170,9 +170,9 @@ ul {
 
 img {
   display: block;
-  width: 100%;
+  width: 80%;
   height: 90%;
-  margin: auto;
+  margin: 0px;
 }
 
 .modal-button {
@@ -316,6 +316,7 @@ img {
   margin-bottom: 10px;
   display: flex;
   margin: 15px;
+  align-items: center;
 }
 
 .button button {
