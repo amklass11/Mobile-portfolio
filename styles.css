@@ -131,9 +131,11 @@ ul {
   overflow-y: scroll;
   overflow-x: scroll;
 }
-.ar{
+
+.ar {
   cursor: pointer;
 }
+
 .social a {
   color: #505f79;
   border: none;
@@ -158,6 +160,7 @@ ul {
   -ms-overflow-style: none;
   scrollbar-width: none; 
   overflow-y: scroll;
+
 }
 
 .modal-card ::-webkit-scrollbar {
@@ -171,6 +174,7 @@ img {
   height: 90%;
   margin: auto;
 }
+
 .modal-button {
   cursor: pointer;
 }
@@ -206,6 +210,7 @@ img {
   margin: 10px auto;
   padding: 10px;
 }
+
 .modal-card-img {
   background: #fafafa;
   border-radius: 10px;
@@ -216,11 +221,12 @@ img {
   padding: 10px;
 }
 
-.modal-head { 
+.modal-head {
   font-size: 30px;
   text-transform: capitalize;
   margin: 10px 0;
   color: black;
+  
 }
 
 .modal-head h2 {
